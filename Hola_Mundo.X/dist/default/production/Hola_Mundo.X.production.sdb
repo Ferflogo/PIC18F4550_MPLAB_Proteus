@@ -1,0 +1,277 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"27 C:\Users\FernandoFG\Desktop\PIC18F4550\Hola_Mundo.X\Hola_Mundo.c
+[v _InitPort InitPort `(v  1 e 1 0 ]
+"43
+[v _main main `(v  1 e 1 0 ]
+[s S112 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+"2353 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f4550.h
+[s S287 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S295 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S301 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S304 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S306 . 1 `S112 1 . 1 0 `S287 1 . 1 0 `S295 1 . 1 0 `S301 1 . 1 0 `S304 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES306  1 e 1 @3968 ]
+[s S149 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2483
+[s S349 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S357 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S360 . 1 `S149 1 . 1 0 `S349 1 . 1 0 `S357 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES360  1 e 1 @3969 ]
+[s S385 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"2605
+[s S394 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S401 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S408 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S412 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S415 . 1 `S385 1 . 1 0 `S394 1 . 1 0 `S401 1 . 1 0 `S408 1 . 1 0 `S412 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES415  1 e 1 @3970 ]
+[s S73 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"2736
+[s S241 . 1 `uc 1 SPP0 1 0 :1:0 
+`uc 1 SPP1 1 0 :1:1 
+`uc 1 SPP2 1 0 :1:2 
+`uc 1 SPP3 1 0 :1:3 
+`uc 1 SPP4 1 0 :1:4 
+`uc 1 SPP5 1 0 :1:5 
+`uc 1 SPP6 1 0 :1:6 
+`uc 1 SPP7 1 0 :1:7 
+]
+[s S250 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S253 . 1 `S73 1 . 1 0 `S241 1 . 1 0 `S250 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES253  1 e 1 @3971 ]
+[s S452 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 RDPU 1 0 :1:7 
+]
+"2868
+[s S459 . 1 `uc 1 CK1SPP 1 0 :1:0 
+`uc 1 CK2SPP 1 0 :1:1 
+`uc 1 OESPP 1 0 :1:2 
+]
+[s S463 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+`uc 1 CCP9E 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 CCP2E 1 0 :1:7 
+]
+[s S470 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 PC3E 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 PA2E 1 0 :1:7 
+]
+[s S477 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PB2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RE7 1 0 :1:7 
+]
+[u S482 . 1 `S452 1 . 1 0 `S459 1 . 1 0 `S463 1 . 1 0 `S470 1 . 1 0 `S477 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES482  1 e 1 @3972 ]
+"2973
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"3073
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"3185
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"3263
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"3375
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+[s S104 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+"3457
+[u S120 . 1 `S104 1 . 1 0 `S112 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES120  1 e 1 @3986 ]
+[s S140 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657
+[u S158 . 1 `S140 1 . 1 0 `S149 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES158  1 e 1 @3987 ]
+[s S180 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3875
+[s S187 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S194 . 1 `S180 1 . 1 0 `S187 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES194  1 e 1 @3988 ]
+[s S64 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"4033
+[u S82 . 1 `S64 1 . 1 0 `S73 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES82  1 e 1 @3989 ]
+[s S212 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+]
+"4245
+[s S216 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+]
+[u S220 . 1 `S212 1 . 1 0 `S216 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES220  1 e 1 @3990 ]
+[s S24 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"6606
+[s S27 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S34 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S39 . 1 `S24 1 . 1 0 `S27 1 . 1 0 `S34 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES39  1 e 1 @4033 ]
+"43 C:\Users\FernandoFG\Desktop\PIC18F4550\Hola_Mundo.X\Hola_Mundo.c
+[v _main main `(v  1 e 1 0 ]
+{
+"59
+} 0
+"27
+[v _InitPort InitPort `(v  1 e 1 0 ]
+{
+"41
+} 0
