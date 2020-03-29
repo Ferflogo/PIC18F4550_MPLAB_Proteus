@@ -18,3 +18,8 @@ los archivos .c en Source Files (el Programa_principal.c y Configuracion.c) y lo
 (Configuracion.h), para proteus dentro del programa, deberas dar doble clik en el microcontrolador o click
 derecho -> Edit Properties y en Program File subir el archivo .hex que genera al compilar el MPLAB, este esta
 en la carpeta dist y listo ya puedes simular el programa.
+
+# Importante
+
+Los archivos de Proteus que tengan LCD cuando se simula se debe apretar el MCLR(Master Clear) un par de veces
+para que el LCD funcione, seguirle apretando hasta que funcione XD !!!
