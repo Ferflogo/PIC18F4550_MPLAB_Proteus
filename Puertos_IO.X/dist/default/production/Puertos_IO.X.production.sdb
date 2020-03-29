@@ -1,0 +1,139 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"20 C:\Users\FernandoFG\Desktop\PIC18F4550\Puertos_IO.X\Main.c
+[v _main main `(i  1 e 2 0 ]
+"46
+[v _secuencial_Efecto1 secuencial_Efecto1 `(v  1 e 1 0 ]
+"61
+[v _secuencial_Efecto2 secuencial_Efecto2 `(v  1 e 1 0 ]
+"76
+[v _secuencial_Efecto3 secuencial_Efecto3 `(v  1 e 1 0 ]
+"91
+[v _secuencial_Efecto4 secuencial_Efecto4 `(v  1 e 1 0 ]
+[s S35 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2483 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f4550.h
+[s S114 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S122 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S125 . 1 `S35 1 . 1 0 `S114 1 . 1 0 `S122 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES125  1 e 1 @3969 ]
+"3263
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S26 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657
+[u S44 . 1 `S26 1 . 1 0 `S35 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES44  1 e 1 @3987 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S66 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"8532
+[s S69 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S78 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S83 . 1 `S66 1 . 1 0 `S69 1 . 1 0 `S78 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES83  1 e 1 @4081 ]
+"17 C:\Users\FernandoFG\Desktop\PIC18F4550\Puertos_IO.X\Main.c
+[v _efecto efecto `uc  1 e 1 0 ]
+"18
+[v _velocidad velocidad `ul  1 e 4 0 ]
+"20
+[v _main main `(i  1 e 2 0 ]
+{
+"44
+} 0
+"91
+[v _secuencial_Efecto4 secuencial_Efecto4 `(v  1 e 1 0 ]
+{
+"93
+[v secuencial_Efecto4@i i `i  1 a 2 3 ]
+"92
+[v secuencial_Efecto4@n n `VEui  1 a 2 7 ]
+[v secuencial_Efecto4@m m `VEui  1 a 2 5 ]
+"107
+} 0
+"76
+[v _secuencial_Efecto3 secuencial_Efecto3 `(v  1 e 1 0 ]
+{
+"77
+[v secuencial_Efecto3@i i `i  1 a 2 2 ]
+"89
+} 0
+"61
+[v _secuencial_Efecto2 secuencial_Efecto2 `(v  1 e 1 0 ]
+{
+"62
+[v secuencial_Efecto2@i i `i  1 a 2 6 ]
+[v secuencial_Efecto2@j j `i  1 a 2 4 ]
+"74
+} 0
+"46
+[v _secuencial_Efecto1 secuencial_Efecto1 `(v  1 e 1 0 ]
+{
+"47
+[v secuencial_Efecto1@i i `i  1 a 2 2 ]
+"59
+} 0
